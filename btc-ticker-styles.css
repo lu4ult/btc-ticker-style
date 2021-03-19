@@ -23,6 +23,10 @@ button {
   border-radius: 10px;  
 }
 
+img {
+ width: 200px; 
+}
+
 .button-enabled {
   background-color: #57C21D;
   border-color:#32c200;
