@@ -29,8 +29,7 @@ img {
   cursor: pointer;
   border-radius: 15px; 
   background-color: #57C21D;
-  border-color:#32c200;
-  
+  border-color:#32c200;  
 }
 
 .button-disabled {
@@ -45,41 +44,73 @@ img {
   border-color: #e60c07;
 }
 
+/****** Dólar Opciones ******/
+.dolar-options {
+  display: flex;
+  justify-content: center; 
+  }
 
+.dolar-options > a {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;  
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+
+    
+  border: 1px solid #009900; /*verde dólar */
+  /*background: #ccc;*/
+  transition: all .5s;
+}
+
+.dolar-options > a:hover {
+  font-size: 22px;
+  width: 150px;
+  transition: all .5s;
+}
+
+.usd-sel {
+  background: #009900;
+  border: 10px solid red;
+  color: #fff;
+  text-decoration: none;
+  z-index: 200;
+}
 /****** Intensidad Display ******/
-.displ-int {  
+.displ-int {    
   font-size: 20px;  
   display: flex;
   justify-content: center;  
+}
 
+.displ-int > a {
+  width: 50px;
+  height: 50px; 
+  text-decoration: none;
+  transition: all .5s;
 }
 
 .displ-int > :hover {
   width: 120px;
-  transition: all .8s;
+  font-size: 25px;
+  transition: all .5s;
 }
 
-.displ-int__1 {
-  width: 50px;
-  height: 50px; 
+.displ-int__1 {  
   background: rgba(255,0,0,.3);
 }
 
-.displ-int__5 {
-  width: 50px;
-  height: 50px; 
+.displ-int__5 {  
   background: rgba(255,0,0,.5);
 }
 
-.displ-int__10 {
-  width: 50px;
-  height: 50px; 
+.displ-int__10 {  
   background: rgba(255,0,0,.7);
 }
 
-.displ-int__15 {
-  width: 50px;
-  height: 50px; 
+.displ-int__15 { 
   background: rgba(255,0,0,.9);
 }
 
@@ -89,19 +120,12 @@ img {
 }
 
 /****** Periodo ******/
-.periodo { 
+.period { 
   display: flex;
   justify-content: center;  
 }
 
-.period {
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
-  font-size: 20px;
-  border: 1px solid #222;
-}
+
 
 .period-sel {
   display: flex;
@@ -114,19 +138,34 @@ img {
   border: 5px solid black;  
 }
 
+.period > a {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #222;
+  transition: all .5s;
+}
 
-.periodo > a:hover {
+.period > a:hover {
   font-size: 30px;
   width: 100px;
   transition: all .5s;
-
 }
 
 /****** ******/
 
+
+:visited {
+  color: #0000ff;
+}
+
 .linktree {
   size: 30px;  
 }
+
 
 
 
