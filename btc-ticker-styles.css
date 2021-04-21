@@ -18,6 +18,8 @@ img {
 }
 
 
+
+/****** Botones Cotizaciones ******/
 .button-enabled {
   color: white; 
   padding: 16px 40px;
@@ -43,6 +45,8 @@ img {
   border-color: #e60c07;
 }
 
+
+/****** Intensidad Display ******/
 .displ-int {  
   font-size: 20px;  
   display: flex;
@@ -84,24 +88,45 @@ img {
   z-index: 100;
 }
 
+/****** Periodo ******/
+.periodo { 
+  display: flex;
+  justify-content: center;  
+}
+
+.period {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border: 1px solid #222;
+}
+
+.period-sel {
+  display: flex;
+  justify-content: center;  
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  background: #aaa;
+  color: white;
+  border: 5px solid black;  
+}
+
+
+.periodo > a:hover {
+  font-size: 30px;
+  width: 100px;
+  transition: all .5s;
+
+}
+
+/****** ******/
+
 .linktree {
   size: 30px;  
 }
 
-/*
-.button {
-  background-color: black;
-  background-color: #57C21D;
-  border-radius: 10px;
-  color: white;
-  padding: 16px 40px;
-  text-decoration: none; 
-  font-size: 30px;
-  margin: 2px;
-  cursor: pointer;
-}
 
-.button2 {
-  background-color: #E63419;
-}
-*/
+
