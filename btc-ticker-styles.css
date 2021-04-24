@@ -37,6 +37,16 @@ img {
   display: none;
 }
 
+.v47 {
+  /*  
+  font-size: 30px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 100px;
+  */
+  display: none;
+}
+
 /****** Botones Cotizaciones ******/
 .button-enabled {
   color: white; 
