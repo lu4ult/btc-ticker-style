@@ -114,6 +114,7 @@ img {
 }
 
 .displ-int > a {
+  padding-top: 5px;
   width: 50px;
   height: 50px; 
   text-decoration: none;
@@ -165,6 +166,7 @@ img {
 }
 
 .period > a {
+  padding-top: 5px;
   display: flex;
   justify-content: center;
   height: 50px;
@@ -178,6 +180,39 @@ img {
 .period > a:hover {
   font-size: 30px;
   width: 100px;
+  transition: all .5s;
+}
+
+/****** Boton Físico ******/
+.bot-fisico { 
+  display: flex;
+  justify-content: center;  
+}
+
+.bot-fisico__sel {
+  display: flex;
+  justify-content: center;   
+  
+  background: #0000ff;
+  color: white;
+  border: 5px solid black;  
+}
+
+.bot-fisico > a {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 100px;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #222;
+  transition: all .5s;
+}
+
+.bot-fisico > a:hover {
+  font-size: 24px;
+  width: 150px;  
   transition: all .5s;
 }
 /****** ******/
