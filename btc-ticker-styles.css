@@ -59,6 +59,10 @@ img {
   display: none;
 }
 
+.v53 {
+  display: none;
+}
+
 /****** Botones Cotizaciones ******/
 .button-enabled {
   color: white; 
