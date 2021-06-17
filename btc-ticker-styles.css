@@ -63,6 +63,10 @@ img {
   display: none;
 }
 
+.v54 {
+  display: none;
+}
+
 /****** Botones Cotizaciones ******/
 .button-enabled {
   color: white; 
@@ -123,6 +127,26 @@ img {
   z-index: 200;
 	}
 	
+
+/****** Par Binance ******/
+
+form > input {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;  
+}
+
+form > input:hover {
+  border: 2px solid #F7931A;  
+}
+
+form > input:focus {  
+  color: #301af7;
+  outline: none;
+  border: 2px solid #F7931A;  
+}
+
 /****** Intensidad Display ******/
 .displ-int {    
   font-size: 20px;  
