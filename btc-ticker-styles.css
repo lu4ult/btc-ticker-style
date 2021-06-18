@@ -12,6 +12,10 @@ h1 {
   color: #FFFFFF;
   /*padding: 20px;*/
 }
+
+body > a {
+  text-decoration: none;
+}
   
 img {
  width: 170px; 
