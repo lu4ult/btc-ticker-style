@@ -71,6 +71,10 @@ img {
   display: none;
 }
 
+.v56 {
+  display: none;
+}
+
 /****** Botones Cotizaciones ******/
 .button-enabled {
   color: white; 
