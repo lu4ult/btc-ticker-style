@@ -32,47 +32,60 @@ img {
 
 /****** Versiones Anteriores ******/
 .v45 {
-  /*  
-  font-size: 30px;
+ font-size: 25px;
   background: #ff0000;
   color: #ffffff;
-  height: 100px;
-  */
-  display: none;
+  height: 60px;
 }
 
 .v47 {
-  /*  
-  font-size: 30px;
+  font-size: 25px;
   background: #ff0000;
   color: #ffffff;
-  height: 100px;
-  */
-  display: none;
+  height: 60px;
 }
 
 .v48 {
-  display: none;
+  font-size: 25px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 60px;
 }
 
 .v50 {
-  display: none;
+  font-size: 25px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 60px;
 }
 
-.v52 {
- display: none;
+.v52 {    
+  font-size: 25px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 60px;
+  
 }
 
 .v53 {
-  display: none;
+ font-size: 25px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 60px;
 }
 
 .v54 {
-  display: none;
+  font-size: 25px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 60px;
 }
 
 .v56 {
-  display: none;
+  font-size: 25px;
+  background: #ff0000;
+  color: #ffffff;
+  height: 60px;
 }
 
 /****** Botones Cotizaciones ******/
